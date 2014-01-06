@@ -1,0 +1,42 @@
+doctype html
+html(lang="en")
+    head
+        title= title
+
+        // Viewport mobile tag for sensible mobile support
+        meta(name="viewport",content="width=device-width, initial-scale=1, maximum-scale=1")
+
+        //encoding
+        meta(charset="utf-8")
+
+        //bootstrap css
+        link(href="/css/bootstrap/bootstrap.min.css", rel="stylesheet")
+        link(href="/css/justified-nav.css", rel="stylesheet")
+        //link(href="/css/bootstrap-theme.min.css", rel="stylesheet")
+
+
+        block styles
+
+    body
+        .container
+            include ./header
+            block bodyContent
+            include ./footer
+        
+        //引入Javascript依赖
+        //jQuery
+        script(type="text/javascript", src="/js/jquery/jquery-2.0.3.min.js")
+        //Bootstrap
+        script(type="text/javascript", src="/js/bootstrap/bootstrap.min.js")
+
+
+        // A few key dependencies, linked in order
+
+        //// Bring in the socket.io client
+        //script(type="text/javascript", src="/js/socket.io.js")
+        //
+        //// then beef it up with some convenience logic for talking to Sails.js'
+        //script(type="text/javascript", src="/js/sails.io.js")
+        //
+        //// listen on socket.io for incoming messages
+        //script(type="text/javascript", src="/js/app.js")

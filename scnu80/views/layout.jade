@@ -10,14 +10,18 @@ html
 
   body
     block body
+    
+    //JavaScrip依赖库
+    script(type="text/javascript", src="/js/jquery/jquery-2.0.3.min.js")
+    script(type="text/javascript", src="/js/bootstrap/bootstrap.min.js")
 
     // A few key dependencies, linked in order
 
     // Bring in the socket.io client
-    script(type="text/javascript", src="/js/socket.io.js")
+    // script(type="text/javascript", src="/js/socket.io.js")
 
-    // then beef it up with some convenience logic for talking to Sails.js'
-    script(type="text/javascript", src="/js/sails.io.js")
+    // // then beef it up with some convenience logic for talking to Sails.js'
+    // script(type="text/javascript", src="/js/sails.io.js")
 
-    // listen on socket.io for incoming messages
-    script(type="text/javascript", src="/js/app.js")
+    // // listen on socket.io for incoming messages
+    // script(type="text/javascript", src="/js/app.js")
