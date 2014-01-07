@@ -14,14 +14,14 @@ html(lang="en")
         link(href="/css/justified-nav.css", rel="stylesheet")
         //link(href="/css/bootstrap-theme.min.css", rel="stylesheet")
 
-
-        block styles
+        style
+            block styles
 
     body
         .container
-            include ./header
+            include ../part/header
             block bodyContent
-            include ./footer
+            include ../part/footer
         
         //引入Javascript依赖
         //jQuery
