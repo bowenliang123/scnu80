@@ -32,6 +32,8 @@ module.exports.routes = {
   // located at `views/home/index.ejs`
   // 
   // (This would also work if you had a file at: `/views/home.ejs`)
+
+  //pages
   '/': {
     view: 'home/index'
   },
@@ -49,6 +51,10 @@ module.exports.routes = {
 
   '/about': {
     view: 'about'
+  },
+
+  '/wishes': {
+    view: 'wishes'
   }
 
 
