@@ -2,18 +2,15 @@ extends ../layout/main
 
 block styles
 
-
 block bodyContent
 
     .jumbotron
         h1 华师八十周年校庆
-        p
-
         p.lead.
-            2010级网络工程5班梁博文、陈思宇
+          2010级网络工程5班梁博文、陈思宇
         p
-            a.btn.btn-lg.btn-success(href='#', role='button').
-                祝福华师！
+          a.btn.btn-lg.btn-success(href='#', role='button')
+              祝福华师！
 
     .row
         .col-lg-4
@@ -37,6 +34,7 @@ block bodyContent
             p
               a.btn.btn-primary(href='#', role='button')
                   View details &raquo;
+
                   
 block addJS
   |$('.nav-index').addClass('active');

@@ -36,15 +36,20 @@ module.exports.routes = {
     view: 'home/index'
   },
 
-  '/mannual/annoucement':{
+  '/mannual/annoucement': {
     view: 'mannual/annoucement'
   },
-  '/mannual/instruction':{
+
+  '/mannual/instruction': {
     view: 'mannual/instruction'
   },
-  '/mannual/contact':{
+  '/mannual/contact': {
     view: 'mannual/contact'
   },
+
+  '/about': {
+    view: 'about'
+  }
 
 
   /*
