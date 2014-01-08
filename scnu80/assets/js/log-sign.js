@@ -1,6 +1,8 @@
 define(function(require, exports, module) {
 	console.log('log-sign.js');
 
+	require('jquery.cookie');
+
 	var login_email = $('#login_email');
 	var login_password = $('#login_password');
 

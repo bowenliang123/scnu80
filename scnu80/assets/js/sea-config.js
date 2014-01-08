@@ -10,8 +10,7 @@ seajs.config({
 
 	preload: [
 		'jquery',
-		'bootstrap',
-		'jquery.cookie'
+		'bootstrap'
 	]
 
 });
