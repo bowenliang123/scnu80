@@ -1,0 +1,44 @@
+#login-block.hide
+	.panel.panel-default
+		.panel-body			
+			form.form-horizontal
+				.form-group
+					.col-lg-2.col-lg-offset-2
+						h2 登录
+				.form-group
+					label.col-lg-2.control-label(for="login_email") Email
+					.col-lg-4
+						input#login_email.form-control(type='email', placeholder='帐号电邮')
+				.form-group
+					label.col-lg-2.control-label(for="login_password") Password
+					.col-lg-4
+						input#login_password.form-control(type='email', placeholder='密码')
+				.form-group
+					.col-lg-2.col-lg-offset-2
+						button#btn-login.btn.btn-success
+							登录
+				
+
+#signup-block.hide
+	.panel.panel-default
+		.panel-body
+			form.form-horizontal
+				.form-group
+					.col-lg-2.col-lg-offset-2
+						h2 注册
+				.form-group
+					label.col-lg-2.control-label(for="signup_email") Email
+					.col-lg-4
+						input#signup_email.form-control(type='email', placeholder='帐号电邮')
+				.form-group
+					label.col-lg-2.control-label(for="signup_password") Password
+					.col-lg-4
+						input#signup_password.form-control(type='email', placeholder='密码')
+				.form-group
+					label.col-lg-2.control-label(for="signup_nickname") Nickname
+					.col-lg-4
+						input#signup_nickname.form-control(type='email', placeholder='你希望我们如何称呼你？')
+				.form-group
+					.col-lg-2.col-lg-offset-2
+						button#btn-signup.btn.btn-success
+							注册

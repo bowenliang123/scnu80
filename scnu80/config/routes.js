@@ -55,8 +55,22 @@ module.exports.routes = {
 
   '/wishes': {
     view: 'wishes'
-  }
+  },
 
+  '/login': {
+    controller: 'UserController',
+    action: 'login'
+  },
+
+  '/signup': {
+    controller: 'UserController',
+    action: 'signup'
+  },
+
+  '/logout': {
+    controller: 'UserController',
+    action: 'logout'
+  }
 
   /*
   // But what if you want your home page to display

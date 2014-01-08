@@ -21,19 +21,22 @@ html(lang="en")
         .container
             include ../part/header
             include ../part/login_statusBar
+            include ../part/log-sign
             block bodyContent
             include ../part/footer
         
         //引入Javascript依赖
         //jQuery
-        script(type="text/javascript", src="/js/jquery/jquery-2.0.3.min.js")
+        // script(type="text/javascript", src="/js/jquery/jquery-2.0.3.min.js")
         //Bootstrap
-        script(type="text/javascript", src="/js/bootstrap/bootstrap.min.js")
+        // script(type="text/javascript", src="/js/bootstrap/bootstrap.min.js")
         //SeaJs
-        script(type="text/javascript", src="/js/seajs/sea.js")
+        script(type="text/javascript", src="/js/sea.js")
+        script(type="text/javascript", src="/js/sea-config.js")
 
         //额外的JS脚本
         script
+            |seajs.use('log-sign');
             block addJS
 
 

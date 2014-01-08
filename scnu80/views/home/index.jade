@@ -9,7 +9,13 @@ block bodyContent
         p.lead
           |2010级网络工程5班梁博文、6班陈思宇
         p
-          a.btn.btn-lg.btn-success(href='#', role='button')
+          |集中展示对WEB快速开发技术的运用
+        p
+          |NodeJS后台, SailsJS框架, Jade模板引擎, Bootstrap响应式布局
+        p
+          |jQuery, AJAX, SeaJS前端模块化, RESTfulAPI
+        p
+          a.btn.btn-lg.btn-success(href='/wishes', role='button')
               祝福华师！
 
     .row
@@ -32,9 +38,9 @@ block bodyContent
             p
               |关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们
             p
-              a.btn.btn-primary(href='#', role='button')
+              a.btn.btn-primary(href='/about', role='button')
                   View 查看信息 &raquo;
 
                   
 block addJS
-  |$('.nav-index').addClass('active');
+  |seajs.use('index');

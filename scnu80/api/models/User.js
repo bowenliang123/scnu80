@@ -12,8 +12,8 @@ module.exports = {
 
   attributes: {
   	emailAddress: {
-		type: 'email', // Email type will get validated by the ORM
-		required: true
+		  type: 'email', // Email type will get validated by the ORM
+		  required: true
     },
 
     password: {

@@ -1,13 +1,23 @@
 br
-.alert.alert-success#notLoginBar
+.alert.alert-success#loginBar
 	div
 		欢迎登录SCNU80！ 华师八十周年需要你的祝福！
 		&nbsp;&nbsp;&nbsp;
-		a.alert-link(href="#")
+		a#login-link.alert-link(href="#")
 			登录
 		&nbsp;&nbsp; or &nbsp;&nbsp;
-		a.alert-link(href="#")
+		a#signup-link.alert-link(href="#")
 			注册
+
+.alert.alert-success.hide#logoutBar
+	div		
+		|&nbsp;&nbsp;Hi , 
+		span#userNickname
+		
+		|&nbsp;。&nbsp;&nbsp;SCNU80 欢迎你！
+		&nbsp;&nbsp;&nbsp;
+		a#logout-link.alert-link(href="#")
+			登出	
 			
 
 
