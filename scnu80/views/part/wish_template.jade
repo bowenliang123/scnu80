@@ -1,0 +1,14 @@
+script#wish_template(type="text/html")
+	{{#wishes}}
+	.panel.panel-info
+		.panel-heading
+
+		.panel-body
+			dl.dl-horizontal
+				dt 发表人
+				dd {{nickname}}
+				dt 时间
+				dd {{createdAt}}
+				dt 祝福内容
+				dd {{text}}
+	{{/wishes}}
