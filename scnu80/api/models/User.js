@@ -8,6 +8,8 @@
 
 module.exports = {
 
+  adapter: 'myLocalMySQLDatabase',
+
   attributes: {
   	emailAddress: {
 		type: 'email', // Email type will get validated by the ORM
